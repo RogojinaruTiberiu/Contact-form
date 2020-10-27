@@ -63,7 +63,7 @@ $(document).ready(function() {
     // <!-- After Form Submitted Validation-->
     $("#contact_submit button").click(function(event){
         var form_data = $("#contact").serializeArray();
-        console.log(form_data);
+        console.log(form_data);return
         var error_free = true;
         for (var input in form_data) {
             var element = $("#contact_" + form_data[input]['name']);
