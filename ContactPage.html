@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+    <head>    
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">        
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+
+
+
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Cabin:wght@400;500;600;700&family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+        <script type="text/javascript" src="https://code.jquery.com/jquery-3.5.1.js"></script>
+        <script href="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+
+        <title>Contact Page</title>
+
+    </head>
+    <body>       
+        <div class="header">
+            <div class="header-wrap">
+                <div class="containter">
+                    <div class="header-nav">
+                        <div class="logo"><img src="img/logo.png" alt="logo"></div>
+                        <div class="toggle"><span></span></div>
+                        <ul class="nav">
+                            <li><a href="">Functionalitati</a></li>
+                            <li><a href="">Documentatie</a></li>
+                            <li><a href="">Servicii</a></li>
+                            <li><a href="">Preturi</a></li>
+                            <li class="selected"><a href="">Contact</a></li>
+                        </ul>
+                        <div class="header-button-log">
+                            <a href="/none" class="button">log in</a>
+                        </div> 
+                    </div>  
+                </div>
+            </div>
+             <div class="banner">  
+                <div class="containter">       
+                    <div class="banner-text">
+                        <h1>Ne-am bucura să auzim vești de la tine</h1>
+                        <p class="small-text">Echipa noastra este nerabdatoare să îți vorbească despre email marketing.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="content">
+            <div class="containter">
+                <div class="form-contact">
+                    <div class="form">
+                        <div class="form-wrap">                            
+                            <form id="contact" method="post" action="">
+                                <!-- Name -->
+                                <div>
+                                    <input type="text" id="contact_name" name="name" placeholder="Nume *"></input>
+                                    <span class="error">This field is required</span>
+                                </div>
+                                <!-- Prenume -->
+                                <div>
+                                    <input type="text" id="contact_prenume" name="prenume" placeholder="Prenume *"></input>
+                                    <span class="error">This field is required</span>
+                                </div>
+                                <!-- Companie/ Organizatie -->
+                                <div>
+                                    <input class="valid" type="text" id="contact_companie" name="companie" placeholder="Companie/ Organizatie"></input>
+                                </div>
+                                <!-- Email -->
+                                <div>
+                                    <input type="email" id="contact_email" name="email" placeholder="Adresa E-mail *"></input>
+                                    <span class="error">A valid email address is required</span>                
+                                </div>
+                                <!-- Message -->
+                                <div>
+                                    <textarea class="valid" id="contact_message" name="message"></textarea>                     
+                                </div>  
+                                <p>Câmpurile marcate cu * sunt obligatorii!</p>                
+                                <!-- Submit Button -->
+                                <div id="contact_submit">               
+                                    <button type="submit" class="button">Submit</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="contact">
+                        <div class="contact-wrap">
+                            <div class="mail">
+                                <h3>e-mail</h3> 
+                                <p><a href="mailto:contact@conectoo.com">contact@conectoo.com</a></p>
+                            </div>
+                            <div class="birou">
+                                <h3>birou</h3>
+                                <p><a href="tel:40-726-362-428">(+40) 726 362 428</a></p>
+                                <p>Swan Office Park, Clădirea Windswor, etaj 2, Șos. București Nord nr. 15-23</p>
+                            </div>
+                            <div class="sofia">
+                                <h3>birou sofia</h3>
+                                <p><a href="tel:359-2-437-2183">(+359) 2 437 2183</a></p>
+                                <p>Str. Sheynovo nr.18, etajul 1 Sofia, Bulgaria</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="register">
+                    <div class="register-text">
+                        <div class="register-wrap-text">
+                            <h2>We’re here to get you anything you need!</h2>
+                            <p>All you have to do is to register <a href="/none">for free!</a></p>
+                        </div>
+                    </div>
+                    <div class="register-button">
+                        <div class="register-wrap-button">
+                            <a href="" class="button">Type in your email address</a>
+                            <a href="" class="get-button">Get started</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="containter">
+                <div class="col col-1">
+                    <div class="footer-logo">
+                        <img src="img/logo.png" alt="logo">
+                    </div>
+                    <div class="footer-text">
+                        <p>Fie că aveți deja o listă de abonați sau porniți de la zero, vă oferim soluții simple pentru creșterea numărului lor și apoi pentru administrarea acestora, astfel încât baza de contacte să fie actualizată în orice moment.</p>
+                    </div>                   
+                </div>
+                <div class="col col-2">
+                    <h3>sitemap</h3>
+                    <ul>
+                        <li><a href="">Functionalitati</a></li>
+                        <li><a href="">Documentatie</a></li>
+                        <li><a href="">Servicii</a></li>
+                        <li><a href="">Preturi</a></li>
+                        <li><a href="">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col col-3">
+                    <h3>birou bucuresti</h3>
+                    <p>Swan Office Park, <br>Windsor Building, 2nd floor,<br> 15 - 23 București Nord Avenue,<br> Bucharest, România</p>
+                </div>
+                <div class="col col-4">
+                    <h3>birou sofia</h3>
+                    <p>18 Sheynovo Street, 1st floor Sofia, Bulgaria</p>
+                </div>
+                <div class="footer-social">
+                    <div class="facebook">
+                        <a href=""></a>
+                    </div>
+                    <div class="twitter">
+                        <a href="" class="twitter"></a>
+                    </div>
+                    <div class="linkedin">
+                        <a href="" class="linkedin"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="policy">
+                <ul>
+                    <li><a href="">Antispam Policy</a></li>
+                    <li><a href="">Terms and Conditions</a></li>
+                </ul>
+            </div>
+            <div class="copyright"> 
+                <p>Copyright © 2007 - 2019 Conversion Marketing</p>
+            </div>             
+        </div>   
+            
+    <script src="script.js"></script>
+    </body>
+</html>
